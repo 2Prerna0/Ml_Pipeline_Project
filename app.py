@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     try:
         logging.info("we are testing our second methods of logging")
-        return "Welcome to Engineering wala bhaiya ML project Session"
+        return "Welcome to My First Ml Project"
     except Exception as e:
         abc = CustomException(e, sys)
         logging.info(abc.error_message)
