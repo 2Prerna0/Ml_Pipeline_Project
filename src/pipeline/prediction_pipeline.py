@@ -8,7 +8,7 @@ from src.logger import logging
 from src.exception import CustomException
 import numpy as np 
 import pandas as pd 
-from dataclasses import dataclasses
+from dataclasses import dataclass
 from src.utils import load_object
 
 class PredictionPipeline:
